@@ -1,0 +1,42 @@
+
+Collecting tasks from: tasks.py
+=============================== Running: [96mgetNews[0m ===============================
+Data from work item has been extracted sucessfully.
+Articles for phrase: dollars saving have been founded 
+Images folder has been created images
+Error could not extract data from an article: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.date-simple.css-1yjq2zp span[aria-hidden="true"]"}
+  (Session info: MicrosoftEdge=128.0.2739.42); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E2EC3A12+10594]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7E2E60439+323321]
+	(No symbol) [0x00007FF7E2C7F16E]
+	(No symbol) [0x00007FF7E2CC656E]
+	(No symbol) [0x00007FF7E2CC65F5]
+	(No symbol) [0x00007FF7E2CBBF2C]
+	(No symbol) [0x00007FF7E2CE7BBF]
+	(No symbol) [0x00007FF7E2CBBEDD]
+	(No symbol) [0x00007FF7E2CBBDAD]
+	(No symbol) [0x00007FF7E2CE7E60]
+	(No symbol) [0x00007FF7E2CBBEDD]
+	(No symbol) [0x00007FF7E2D01B07]
+	(No symbol) [0x00007FF7E2CE77E3]
+	(No symbol) [0x00007FF7E2CBB3EC]
+	(No symbol) [0x00007FF7E2CBA8CD]
+	(No symbol) [0x00007FF7E2CBAFB1]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF7E304E4B4+918756]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7E2DEC9BF+54575]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7E2DDF557+199]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF7E304D23D+914029]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7E2E67EC1+354689]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7E2E64374+339508]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7E2E644A9+339817]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7E2E5AD6C+301100]
+	BaseThreadInitThunk [0x00007FFA308E257D+29]
+	RtlUserThreadStart [0x00007FFA31B8AF28+40]
+
+Data from articles has been extracted
+Excel file has been created succesfully output\search_results.xlsx
+Bot has run succesfully
+[96mgetNews[0m status: PASS
+================================================================================
+Robocorp Log (html): c:\Users\bella\Desktop\Robocorp\output\log.html
