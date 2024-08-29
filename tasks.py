@@ -107,8 +107,8 @@ def getNews():
 
             print(f"Articles for phrase: {input_text} have been founded ")
             #check for images folder
-            if not os.path.exists('images'):
-                os.makedirs('images')
+            if not os.path.exists('output\images'):
+                os.makedirs('output\images')
                 print(f"Images folder has been created {os.path.join('images')}")
 
             search_results = []
@@ -146,7 +146,7 @@ def getNews():
                     img_name = f'{title.split(" ")[0]}_{index + 1}.jpg'
                     index+=1
                     # save image in directory\images
-                    with open(os.path.join('images', img_name), 'wb') as handler:
+                    with open(os.path.join('output\images', img_name), 'wb') as handler:
                         handler.write(img_data)
 
                     
